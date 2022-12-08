@@ -11,5 +11,18 @@
       "StackId": "arn:aws:cloudformation:eu-west-3:085100686535:stack/amplify-where2dog-dev-160426/c8ca8460-731b-11ed-9a3b-0a425631d040",
       "AmplifyAppId": "d2nyo036synltw"
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-where2dog-prod-210409-authRole",
+      "UnauthRoleArn": "arn:aws:iam::085100686535:role/amplify-where2dog-prod-210409-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::085100686535:role/amplify-where2dog-prod-210409-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-where2dog-prod-210409-deployment",
+      "UnauthRoleName": "amplify-where2dog-prod-210409-unauthRole",
+      "StackName": "amplify-where2dog-prod-210409",
+      "StackId": "arn:aws:cloudformation:eu-west-3:085100686535:stack/amplify-where2dog-prod-210409/7b0c8950-7733-11ed-8467-06fe0c9d6cfe",
+      "AmplifyAppId": "d2nyo036synltw"
+    }
   }
 }
