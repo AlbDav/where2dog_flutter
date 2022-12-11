@@ -10,6 +10,11 @@
       "StackName": "amplify-where2dog-dev-160426",
       "StackId": "arn:aws:cloudformation:eu-west-3:085100686535:stack/amplify-where2dog-dev-160426/c8ca8460-731b-11ed-9a3b-0a425631d040",
       "AmplifyAppId": "d2nyo036synltw"
+    },
+    "categories": {
+      "auth": {
+        "where2dog3d69a100": {}
+      }
     }
   },
   "prod": {
