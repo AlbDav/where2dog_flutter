@@ -75,6 +75,19 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _selectedIndex = index;
     });
+    if (index == 2) {
+      _signInWithWebUI();
+      print('ciao');
+    }
+  }
+
+  Future<void> _signInWithWebUI() async {
+    try {
+      final result = await Amplify.Auth.signInWithWebUI();
+      print('Result: $result');
+    } on AuthException catch (e) {
+      print(e.message);
+    }
   }
 
   @override
@@ -156,7 +169,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> _configureAmplify() async {
-
     // Add any Amplify plugins you want to use
     final authPlugin = AmplifyAuthCognito();
     await Amplify.addPlugin(authPlugin);
@@ -169,7 +181,8 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       await Amplify.configure(amplifyconfig);
     } on AmplifyAlreadyConfiguredException {
-      safePrint("Tried to reconfigure Amplify; this can occur when your app restarts on Android.");
+      safePrint(
+          "Tried to reconfigure Amplify; this can occur when your app restarts on Android.");
     }
   }
 }
