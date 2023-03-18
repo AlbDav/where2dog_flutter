@@ -35,6 +35,7 @@ dependencies:
   amplify_flutter: ^0.6.12
   amplify_auth_cognito: ^0.6.12
   provider: ^6.0.5
+  font_awesome_flutter: ^10.4.0
 
 
 dev_dependencies:
