@@ -1,15 +1,15 @@
 export type AmplifyDependentResourcesAttributes = {
-    "auth": {
-        "where2dog3d69a100": {
-            "IdentityPoolId": "string",
-            "IdentityPoolName": "string",
-            "HostedUIDomain": "string",
-            "OAuthMetadata": "string",
-            "UserPoolId": "string",
-            "UserPoolArn": "string",
-            "UserPoolName": "string",
-            "AppClientIDWeb": "string",
-            "AppClientID": "string"
-        }
+  "auth": {
+    "where2dog3d69a100": {
+      "AppClientID": "string",
+      "AppClientIDWeb": "string",
+      "HostedUIDomain": "string",
+      "IdentityPoolId": "string",
+      "IdentityPoolName": "string",
+      "OAuthMetadata": "string",
+      "UserPoolArn": "string",
+      "UserPoolId": "string",
+      "UserPoolName": "string"
     }
+  }
 }
